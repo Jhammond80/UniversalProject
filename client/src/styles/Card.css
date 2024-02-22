@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.project-list{
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-wrapper{
+    width: 40%;
+    display: flex;
+    background: radial-gradient(circle at 100px 100px,rgb(150, 148, 148), white, black);
+    margin: 30px;
+    border: 2pt solid silver;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.card-box{
+    width: 50%;
+    height: 180px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card-btn-box{
+    width: 50%;
+    height: 160px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.card-title{
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+    text-shadow: 4px 4px 5px black;
+}
+
+.value-holder{
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+    text-shadow: 4px 4px 5px black;;
+}

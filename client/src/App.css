@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.create-one{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
