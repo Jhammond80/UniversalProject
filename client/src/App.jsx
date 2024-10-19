@@ -14,7 +14,7 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Dashboard/>}/>
+        <Route path='/' element={<Dashboard1/>}/>
         <Route path='/create' element={<Create1/>}/>
         <Route path='/project/:id/update' element={<Update/>}/>
         <Route path='/project/:id/details' element={<Details/>}/>

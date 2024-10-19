@@ -1,0 +1,83 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url('../images/brick.jpeg');
+    height: 20vh; /* Adjust height relative to the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    color: khaki;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 8vw; /* Font size will adjust based on viewport width */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    header {
+        height: 30vh; /* Increase height for smaller screens */
+    }
+    
+    header h1 {
+        font-size: 8vw; /* Increase font size scaling for smaller screens */
+    }
+}
+
+
+/* ============ D.R.Y Section ============ */
+.brushes strong, .frames strong, .paint strong{
+    color: blue;
+}
+
+.brushes img, .frames img, .paint img{
+    margin-bottom: 20px;
+}
+
+.brushes h3, p, .frames h3 p, .paint h3 p{
+    margin-bottom: 20px;
+}
+
+.brushes h2, .frames h2, .paint h2{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 32px;
+}
+
+/* ============ Unique Section ========== */
+
+/* Brushes Section */
+
+.brushes h2{
+    background-color: #00FA9A;
+}
+
+
+/* Frames Section*/
+
+.frames h2{
+    background-color: lightcoral;
+}
+
+
+
+/* Paint Section */
+
+.paint h2{
+    background-color: skyblue;
+}
+
+

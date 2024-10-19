@@ -108,7 +108,7 @@ const Create1 = () => {
     //     { label: 'Placeholder', id: 'valueFour', name: 'valueFour', checked: project.valueFour, onChange: handleChange, type: 'checkbox' },
     // ];
     //=================================================
-    // set to handle custome hook
+    // set to handle custom hook
     const attributes = [
         { label: 'Placeholder', id: 'valueOne', name: 'valueOne', value: project.valueOne, onChange: (e) => handleChange(e, setProject, project) },
         { label: 'Placeholder', id: 'valueTwo', name: 'valueTwo', value: project.valueTwo, onChange: (e) => handleChange(e, setProject, project) },
